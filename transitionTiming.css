@@ -1,0 +1,49 @@
+.container {
+  margin: 100px;
+}
+.circle {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+.container:hover {
+  transform: translateX(200px);
+}
+
+.zero {
+  border: 2px solid PaleTurquoise;
+  background: PaleTurquoise;
+  transition: all 2.5s linear;
+}
+
+.one {
+  border: 2px solid lightskyblue;
+  background: lightskyblue;
+  transition: all 2.5s ease-in;
+}
+
+.two {
+  border: 2px solid khaki;
+  background: khaki;
+  transition: all 2.5s ease-out;
+}
+
+.three {
+  border: 2px solid mediumturquoise;
+  background: mediumturquoise;
+  transition: all 2.5s ease-in-out;
+}
+
+.four {
+  border: 2px solid thistle;
+  background: thistle;
+  transition: all 2.5s cubic-bezier(0, 1, 0.98, 0);
+}
+
+.five {
+  border: 2px solid salmon;
+  background: salmon;
+  transition: all 2.5s ease;
+}
